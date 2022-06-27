@@ -1,3 +1,9 @@
+/**
+* โปรเจคนี้โค๊ดคือตั้งแต่เริ่มต้นเขียน ไม่มีการลบทิ้งหรือปิดอาจจะนำเป็นแนวทางเบื้องต้นได้่
+* ไม้ได้จะเรียงโค๊ดในแต่ละการทำงานนะครับ 
+*/
+
+
 require('dotenv').config()
 const { Client, Intents } = require("discord.js");
 const { joinVoiceChannel, createAudioResource, createAudioPlayer } = require('@discordjs/voice')
